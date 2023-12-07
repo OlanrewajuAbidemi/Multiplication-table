@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+}
+#container{
+    background-color:indigo;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+}
+#container h1{
+    font-family: fantasy;
+    font-size: 100px;
+}
+
+#container input{
+    height: 40px;
+    border-radius: 15px;
+    width: 350px;
+    color: white;
+    background-color: indigo;
+    text-align: center;
+}
+#container button{
+    width: 70px;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    background-color: indigo;
+}
+#container table{
+    text-align: center;
+    justify-content: space-around;
+    margin: auto;
+}

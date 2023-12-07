@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <h1>MULTIPLICATION TABLE</h1>
+        <!-- <select>
+            <option></option>
+            <option>MULTIPLICATION</option>
+            <option>ADDITION</option>
+            <option>SUBTRACTION</option>
+            <option>DIVISION</option>
+        </select>
+
+        <input type="number" placeholder="table?">
+
+        <input type="number" placeholder=" 1 to ?"> -->
+
+        <input id="myinput" type="number">
+        <input id="secondinput" type="number">
+
+        <button onclick="add()">Generate table</button>
+        <table >
+            <tr id="dom">
+                
+
+            </tr>
+
+
+        </table>
+
+    </div>
+  
+
+
+    <script>
+        const add = () =>{
+            let you = document.getElementById("myinput").value
+            for (i = 1; i  <= document.getElementById("myinput").value; i++){
+ console.log(i)
+ document.getElementById('dom').innerHTML += "<td> </td>"  +  "Table" +i + ".  "+ "<br>" + "<br>" + "<br>"
+ for(j= 1 ; j <= document.getElementById("secondinput").value; j++){
+//  document.getElementById("dom").innerHTML += j + "<br>"
+document.getElementById('dom').innerHTML += i + "x" + j + "="+ i * j + ".    "+ "<br>" + "<br>" + "<br>"
+
+ }
+}
+
+
+        }
+
+
+    </script>
+    
+</body>
+</html>
