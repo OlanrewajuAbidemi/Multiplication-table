@@ -43,10 +43,14 @@
             let you = document.getElementById("myinput").value
             for (i = 1; i  <= document.getElementById("myinput").value; i++){
  console.log(i)
- document.getElementById('dom').innerHTML += "<td> </td>"  +  "Table" +i + ".  "+ "<br>" + "<br>" + "<br>"
+ document.getElementById('dom').innerHTML += "<td> </td>" +  "Table" +i  +"<br>" +  "<br>" + "<br>" 
+ document.querySelector("td").style.border="2px solid black"
+
+
  for(j= 1 ; j <= document.getElementById("secondinput").value; j++){
 //  document.getElementById("dom").innerHTML += j + "<br>"
 document.getElementById('dom').innerHTML += i + "x" + j + "="+ i * j + ".    "+ "<br>" + "<br>" + "<br>"
+
 
  }
 }

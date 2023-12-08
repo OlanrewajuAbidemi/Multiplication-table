@@ -40,4 +40,5 @@ body{
     text-align: center;
     justify-content: space-around;
     margin: auto;
+    border: 5px solid gold;
 }
