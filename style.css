@@ -14,7 +14,7 @@ body{
     justify-content: center;
     text-align: center;
     margin: auto;
-    width: fit-content;
+    width:fit-content;
 }
 #container h1{
     font-family: fantasy;
@@ -40,5 +40,5 @@ body{
     text-align: center;
     justify-content: space-around;
     margin: auto;
-    border: 5px solid gold;
+    /* border: 5px solid gold; */
 }
